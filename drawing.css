@@ -24,7 +24,7 @@ html, body, div {
   margin-top: -150px;
   margin-left: -200px;
   background:
-    radial-gradient(circle at center 80%, #e5f73a,  #e5f73a 150px, transparent 150px, transparent) center -70px/300px 280px no-repeat,
+    radial-gradient(circle at center 80%, #e5f73a,  #e5f73a 145px, transparent 150px, transparent) center -70px/300px 280px no-repeat,
     linear-gradient(to right, #e5f73a 8%, transparent 10%, transparent 18%, #e5f73a 23%, #e5f73a 32%, transparent 34%, transparent 38%, #e5f73a 40%, #e5f73a 100%) 30px 250px/120px 2px no-repeat,
     linear-gradient(to right, #e5f73a 65%, transparent 67%, transparent 72%, #e5f73a 74%, #e5f73a 79%, transparent 81%, transparent 85%, #e5f73a 87%, #e5f73a 100%) 260px 240px/120px 2px no-repeat,
     linear-gradient(to right, #e5f73a 60%, transparent 62%, transparent 67%, #e5f73a 69%, #e5f73a 79%, transparent 80%) 200px 280px/100px 2px no-repeat
