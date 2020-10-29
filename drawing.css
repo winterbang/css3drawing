@@ -163,6 +163,28 @@ html, body, div {
   border-radius: 50%;
   background-color: #BFC1C1;
 }
+
+.woman-1 {
+  z-index: 100;
+  transform: scale(2);
+  margin-left: -50px;
+  margin-top: -50px;
+  width: 100px;
+  height: 100px;
+  background:
+  radial-gradient(circle, black 2px, transparent 2px) 40px 62px/4px 4px no-repeat,
+  radial-gradient(circle, black 2px, transparent 2px) 56px 62px/4px 4px no-repeat,
+  radial-gradient(circle at center top, #fa7d66 5px, transparent 5px) center 72px/10px 5px no-repeat,
+  radial-gradient(at center top, #fef4d9 20px, transparent 20px) center 55px/40px 25px no-repeat,
+  radial-gradient(circle at center top, #fef4d9 4px, transparent 4px) center 86px/8px 4px no-repeat, 
+  linear-gradient( to top, #fef4d9, #fef4d9) center 75px/8px 12px no-repeat,
+  radial-gradient(40px 25px at center 100px, #fd7c66 20px, transparent 20px) center no-repeat,
+  radial-gradient(circle at center bottom, #6e3d2e 25px, transparent 25px) center 28px/50px 25px no-repeat,
+  linear-gradient(to top, #6e3d2e,#6e3d2e 100px) center 53px/50px 50px no-repeat,
+  #fcf0a6;
+  border-radius: 50%;
+}
+
 @media all and (min-width: 650px) and (max-width:959px) {
   .frame {
     float:left;
