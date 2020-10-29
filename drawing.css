@@ -70,42 +70,6 @@ html, body, div {
   background-image: radial-gradient();
 }
 
-/* .fishbowl::before {
-  content: '';
-  display: block;
-  width: 200px;
-  height: 200px;
-  padding: 25px 0;
-  margin-top: -100px;
-  margin-left: -100px;
-  background:
-    radial-gradient(circle at center 80px, transparent 98px, black 98px, black 100px, transparent 100px) center 45px/200px 200px no-repeat,
-    radial-gradient(circle at 25px 0px, green 10px, transparent 10px ) 40px 105px/35px 18px repeat-x,
-    radial-gradient(circle at 9px bottom, blue 9px, transparent 9px ) 38px 88px/37px 18px repeat-x,
-    radial-gradient(circle at 25px -4px, #8AFBFD 10px, transparent 10px ) 38px 125px/36px 18px repeat-x,
-    radial-gradient(circle at 9px bottom, #59DDFE 9px, transparent 9px ) left 110px/36px 18px repeat-x,
-    radial-gradient(circle at center top, #59DDFE 98px, transparent 98px) center 125px/200px 100px no-repeat,
-    radial-gradient(circle at center 30px, #8AFBFD 98px, transparent 98px) center 95px/200px 170px no-repeat,
-    radial-gradient(circle at left center,white 11px, black 11px, black 13px, transparent 13px) 180px 20px/13px 26px no-repeat,
-    radial-gradient(circle at right center,white 11px, black 11px, black 13px, transparent 13px) 7px 20px/13px 26px no-repeat,
-    linear-gradient(black 2px, white 2px, white 24px, black 24px) center 20px/160px 26px no-repeat,
-    radial-gradient(circle, white 98px, black 98px, black 100px, transparent 100px),
-    rgba(0, 0, 0, 0.2)
-  ;
-  border-radius: 50%;
-  border: 2px solid black;
-}
-
-.fishbowl:after {
-  bottom: -20px;
-  left: 0;
-  right: 0;
-  width: 180px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #BFC1C1;
-} */
-
 .fishbowl {
   width: 200px;
   height: 230px;
@@ -166,7 +130,7 @@ html, body, div {
 
 .woman-1 {
   z-index: 100;
-  transform: scale(2);
+  transform: scale(3);
   margin-left: -50px;
   margin-top: -50px;
   width: 100px;
