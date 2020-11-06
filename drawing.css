@@ -15,9 +15,26 @@ html, body, div {
   top: 50%;
 }
 
-#sunrise {
-  background-color:#1c1c1c;
+.tv {
+  width: 200px;
+  height: 160px;
+  transform: translate(-50%, -50%);
+  border-radius: 25% 25% 25% 25% / 40% 40% 40% 40%;
+  /* border: 8px solid white; */
+  box-shadow: 0 0 0 1px black, 0 0 0 8px #f6f8ed;
+  background:
+  linear-gradient( #a3aeb0, #a3aeb0) 30px center/110px 95px no-repeat,
+  /* radial-gradient(circle, white 2px, transparent 2px) 160px 90px/20px 20px, */
+  radial-gradient( #a3aeb0 53px, black 53px, black 55px, transparent 55px ) 30px 23px/110px 20px no-repeat,
+  radial-gradient( #a3aeb0 53px, black 53px, black 55px, transparent 55px ) 30px 118px/110px 20px no-repeat,
+  radial-gradient( #a3aeb0 9px, black 9px, black 10px, transparent 10px ) 21px 33px/20px 95px no-repeat,
+  radial-gradient( #a3aeb0 9px, black 9px, black 10px, transparent 10px ) 129px 33px/20px 95px no-repeat,
+  
+  radial-gradient(circle, white 10px, transparent 10px) 160px 90px/20px 20px no-repeat,
+  radial-gradient(circle, white 10px, transparent 10px) 160px 120px/20px 20px no-repeat,
+  #5a595f;
 }
+
 .sunrise {
   width: 400px;
   height: 300px;
