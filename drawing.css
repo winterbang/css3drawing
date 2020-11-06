@@ -16,25 +16,93 @@ html, body, div {
 }
 
 .tv {
+  /* width: 200px;
+  height: 160px;
+  transform: translate(-50%, -50%);
+  background-origin: content-box;
+  border-radius: 25% 25% 25% 25% / 40% 40% 40% 40%;
+  box-shadow: 0 0 0 1px black, 0 0 0 8px #f6f8ed;
+  background:
+  linear-gradient(170deg, transparent 60px, #999 10px) 26px center/112px 104px no-repeat,
+  radial-gradient(ellipse at center top, #999 56px, transparent 56px) 26px 132px/112px 10px no-repeat,
+  linear-gradient( #a3aeb0, #a3aeb0) 26px center/112px 104px no-repeat,
+  radial-gradient(ellipse at center bottom, #a3aeb0 56px, transparent 56px) 26px 18px/112px 10px no-repeat,
+  radial-gradient(ellipse at center right, #a3aeb0 10px, transparent 10px) 16px 28px/10px 104px no-repeat,
+  radial-gradient(ellipse at center left, #a3aeb0 10px, transparent 10px) 138px 28px/10px 104px no-repeat,
+
+  radial-gradient(circle, white 10px, transparent 10px) 160px 90px/20px 20px no-repeat,
+  radial-gradient(circle, white 10px, transparent 10px) 160px 120px/20px 20px no-repeat,
+  #5a595f; */
   width: 200px;
   height: 160px;
   transform: translate(-50%, -50%);
-  border-radius: 25% 25% 25% 25% / 40% 40% 40% 40%;
-  /* border: 8px solid white; */
-  box-shadow: 0 0 0 1px black, 0 0 0 8px #f6f8ed;
   background:
-  linear-gradient( #a3aeb0, #a3aeb0) 30px center/110px 95px no-repeat,
-  /* radial-gradient(circle, white 2px, transparent 2px) 160px 90px/20px 20px, */
-  radial-gradient( #a3aeb0 53px, black 53px, black 55px, transparent 55px ) 30px 23px/110px 20px no-repeat,
-  radial-gradient( #a3aeb0 53px, black 53px, black 55px, transparent 55px ) 30px 118px/110px 20px no-repeat,
-  radial-gradient( #a3aeb0 9px, black 9px, black 10px, transparent 10px ) 21px 33px/20px 95px no-repeat,
-  radial-gradient( #a3aeb0 9px, black 9px, black 10px, transparent 10px ) 129px 33px/20px 95px no-repeat,
-  
-  radial-gradient(circle, white 10px, transparent 10px) 160px 90px/20px 20px no-repeat,
-  radial-gradient(circle, white 10px, transparent 10px) 160px 120px/20px 20px no-repeat,
-  #5a595f;
+    linear-gradient(#5a595f, #5a595f) no-repeat content-box,
+    linear-gradient(white, white) no-repeat padding-box
+  ;
+  border-radius: 25% 25% 25% 25% / 40% 40% 40% 40%;
+  padding: 8px 8px 8px 8px;
 }
 
+.tv::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 260px;
+  top: -50px;
+  background:
+    linear-gradient(170deg, transparent 60px, #999 10px) 26px center/112px 104px no-repeat,
+    radial-gradient(ellipse at center top, #a3aeb0 56px, transparent 56px) 26px 190px/112px 10px no-repeat,
+    linear-gradient( #a3aeb0, #a3aeb0) 26px 86px/112px 104px no-repeat,
+    radial-gradient(ellipse at center bottom, #a3aeb0 56px, transparent 56px) 26px 76px/112px 10px no-repeat,
+    radial-gradient(ellipse at center right, #a3aeb0 10px, transparent 10px) 16px 86px/10px 104px no-repeat,
+    radial-gradient(ellipse at center left, #a3aeb0 10px, transparent 10px) 138px 86px/10px 104px no-repeat,
+
+    linear-gradient(50deg, transparent 9px, #a3aeb0 9px, #a3aeb0 10px, transparent 10px) 162px 154px/15px 15px no-repeat,
+    linear-gradient(50deg, transparent 9px, #a3aeb0 9px, #a3aeb0 10px, transparent 10px) 166px 150px/15px 15px no-repeat,
+    radial-gradient(circle, white 10px, transparent 10px) 160px 150px/20px 20px no-repeat,
+    linear-gradient(120deg, transparent 9px, #a3aeb0 9px, #a3aeb0 10px, transparent 10px) 162px 182px/15px 15px no-repeat,
+    linear-gradient(120deg, transparent 9px, #a3aeb0 9px, #a3aeb0 10px, transparent 10px) 166px 185px/15px 15px no-repeat,
+    radial-gradient(circle, white 10px, transparent 10px) 160px 180px/20px 20px no-repeat,
+
+    radial-gradient(ellipse at center bottom, white 10px, transparent 10px) center 40px/30px 10px no-repeat,
+    radial-gradient(circle, white 4px, transparent 4px) 82px 5px/8px 8px no-repeat,
+    linear-gradient(70deg, transparent 12px, white 12px, white 15px, transparent 15px) 85px 5px/20px 40px no-repeat,
+    radial-gradient(circle, white 4px, transparent 4px) 107px 0px/8px 8px no-repeat,
+    linear-gradient(105deg, transparent 15px, white 15px, white 18px, transparent 18px) 95px 0px/20px 48px no-repeat,
+
+    linear-gradient(110deg, transparent 10px, #a3aeb0 10px, #a3aeb0 16px, transparent 16px) 40px 226px/20px 20px no-repeat,
+    linear-gradient(120deg, transparent 15px, #a3aeb0 15px, #a3aeb0 21px, transparent 21px) 38px 226px/25px 20px no-repeat,
+    linear-gradient(60deg, transparent 15px, #a3aeb0 15px, #a3aeb0 21px, transparent 21px) 133px 226px/25px 20px no-repeat,
+    linear-gradient(70deg, transparent 10px, #a3aeb0 10px, #a3aeb0 16px, transparent 16px) 140px 226px/20px 20px no-repeat
+  ;
+}
+
+.tv::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 48px;
+  left: 164px;
+  top: 40px;
+  background:
+    radial-gradient(circle at center, black 2px, transparent 2px) center/6px 6px space
+  ;
+}
+
+/* 法国军人头 */
+/* width: 200px;
+  height: 160px;
+  transform: translate(-50%, -50%);
+  background:
+   linear-gradient(#5a595f, #5a595f) no-repeat content-box,
+   linear-gradient(white, white) no-repeat padding-box
+   ;
+  border-radius: 25% 25% 25% 25% / 40% 40% 40% 40%;
+  padding: 8px 8px 8px 8px;
+  border-top: 200px solid black; */
 .sunrise {
   width: 400px;
   height: 300px;
@@ -154,7 +222,7 @@ html, body, div {
   radial-gradient(circle, black 2px, transparent 2px) 56px 62px/4px 4px no-repeat,
   radial-gradient(circle at center top, #fa7d66 5px, transparent 5px) center 72px/10px 5px no-repeat,
   radial-gradient(at center top, #fef4d9 20px, transparent 20px) center 55px/40px 25px no-repeat,
-  radial-gradient(circle at center top, #fef4d9 4px, transparent 4px) center 86px/8px 4px no-repeat, 
+  radial-gradient(circle at center top, #fef4d9 4px, transparent 4px) center 86px/8px 4px no-repeat,
   linear-gradient( to top, #fef4d9, #fef4d9) center 75px/8px 12px no-repeat,
   radial-gradient(40px 25px at center 100px, #fd7c66 20px, transparent 20px) center no-repeat,
   radial-gradient(circle at center bottom, #6e3d2e 25px, transparent 25px) center 28px/50px 25px no-repeat,
